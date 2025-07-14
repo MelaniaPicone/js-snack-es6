@@ -1,0 +1,38 @@
+const squad = [
+
+{
+nome: 'Juventus',
+punti_assegnati: '0',
+falli_subiti: '0',
+},
+
+
+{
+nome: 'Inter',
+punti_assegnati: '0',
+falli_subiti: '0',
+},
+
+
+{
+nome: 'Napoli',
+punti_assegnati: '0',
+falli_subiti: '0',
+},
+
+
+{
+nome: 'Fiorentina',
+punti_assegnati: '0',
+falli_subiti: '0',
+},
+
+
+{
+nome: 'Roma',
+punti_assegnati: '0',
+falli_subiti: '0',
+},
+]
+
+console.log(squad);
