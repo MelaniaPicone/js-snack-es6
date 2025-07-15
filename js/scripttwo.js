@@ -56,3 +56,21 @@ squad[i].falli_subiti = randomNumb ();
 }
 
 console.log(squad);
+
+// array con solo nomi e falli
+
+const newArray = [];
+
+for (let i=0 ; i < squad.length; i++) {
+
+const squadNum = {
+nome: squad[i].nome,
+falli_subiti: squad[i].falli_subiti
+}
+
+newArray.push(squadNum);
+
+}
+
+
+console.log(newArray);
