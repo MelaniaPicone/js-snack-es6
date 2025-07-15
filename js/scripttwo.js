@@ -41,8 +41,8 @@ console.log(squad);
 // numeri randomici
 
 function randomNumb () {
-  randomNumb = Math.floor(Math.random() * 100 +1);
-return randomNumb;
+const points = Math.floor(Math.random() * 100 +1);
+return points;
 }
 
 
