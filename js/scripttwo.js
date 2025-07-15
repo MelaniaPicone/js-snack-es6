@@ -50,7 +50,9 @@ return randomNumb;
 
 for (let i=0; i < squad.length ; i++) {
 
+squad[i].punti_assegnati = randomNumb();
+squad[i].falli_subiti = randomNumb ();
 
-
-  
 }
+
+console.log(squad);
