@@ -48,7 +48,7 @@ let maxKg = lightBike.peso;
 
 
 if (kg < maxKg) {
-heavBike = bikes[i];
+lightBike = bikes[i];
 console.log(lightBike);
 }
 
